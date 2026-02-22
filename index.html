@@ -1,38 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Business Name | Introduction</title>
+    <title>Jktaisa Shop | Professional Solutions</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <header class="main-header">
         <div class="container">
-            <h1 class="logo">MY<span>BUSINESS</span></h1>
+            <h1 class="logo">JKTAISA<span>SHOP</span></h1>
             <nav>
                 <ul class="nav-links">
                     <li><a href="#" class="active">Home</a></li>
                     <li><a href="#">Shop</a></li>
-                    <li><a href="#">Customer Support</a></li>
+                    <li><a href="#">Support</a></li>
                 </ul>
+                <button id="theme-toggle" class="theme-btn">
+                    <span id="theme-icon">🌙</span>
+                </button>
             </nav>
         </div>
     </header>
 
-    <section class="intro-section">
-        <div class="container intro-flex">
-            <div class="intro-image">
-                <img src="https://via.placeholder.com/600x400" alt="Our Business in Action">
+    <main>
+        <section class="intro-section">
+            <div class="container intro-flex">
+                <div class="intro-text">
+                    <span class="badge">Welcome to the Future</span>
+                    <h2>Elevate Your <br><span class="highlight">Digital Lifestyle.</span></h2>
+                    <p>Experience the premium selection at Jktaisa Shop. We bridge the gap between high-end utility and modern design.</p>
+                    <div class="btn-group">
+                        <button class="cta-btn primary">Explore Shop</button>
+                        <button class="cta-btn secondary">Learn More</button>
+                    </div>
+                </div>
+                <div class="intro-image">
+                    <div class="image-overlay"></div>
+                    <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=600&q=80" alt="Tech Business">
+                </div>
             </div>
-            <div class="intro-text">
-                <h2>Innovating for Your Future</h2>
-                <p>Welcome to our professional introduction. We specialize in delivering high-quality solutions tailored to your needs. Our commitment to excellence ensures that your business stays ahead of the curve.</p>
-                <button class="cta-btn">Learn More</button>
-            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>©Jktaisa Shop</p>
         </div>
-    </section>
+    </footer>
 
     <script src="script.js"></script>
 </body>
